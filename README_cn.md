@@ -11,8 +11,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-380-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
-[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-101-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
+[![Papers](https://img.shields.io/badge/Papers-396-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-102-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
 ## 👋 简介
@@ -106,6 +106,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 近期热点研究与新闻
++ 2026-05-10 - 🎉 更新16篇论文，系统&模型类3篇，Benchmark类1篇，方法类12篇；并新增1个开源系统项目
 + 2026-05-06 - 🎉 更新16篇论文，系统&模型类2篇，Benchmark类2篇，方法类12篇
 + 2026-04-27 - 🎉 更新15篇论文，综述类2篇，系统与模型类3篇，方法类10篇
 + 2026-04-17 - 🎉 更新46篇论文，综述类1篇，系统与模型类5篇，Benchmark类3篇，方法类37篇
@@ -579,6 +580,126 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-07</td>
+        <td style="width: 55%;"><strong>Belief Memory: Agent Memory Under Partial Observability</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+          <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Explicit%20Memory-darkgreen" alt="Explicit Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.05583">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 BeliefMem 记忆框架，将记忆范式从存储单一的确定性结论转变为维护属性级别的信念表示，以解决部分可观测环境下的自我强化错误问题。<br>
+          • 为每个属性维护多个候选结论及其概率，通过 Noisy-OR 规则融合新证据进行更新，并结合信念感知检索机制，在智能体决策时保留不确定性。<br>
+          • 在 LoCoMo 和 ALFWorld 基准测试中取得了优于现有确定性记忆方法的平均性能，展现出强大的记忆纠错能力与出色的数据效率。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-07</td>
+        <td style="width: 55%;"><strong>MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+          <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.06132">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出面向智能体记忆检索的推理感知重排模型系列 MemReranker（0.6B/4B），通过多阶段 LLM 知识蒸馏流水线解决传统模型过度依赖浅层语义匹配的问题。<br>
+          • 结合 Elo/Bradley-Terry 校准评分、BCE 逐点蒸馏与 InfoNCE 对比微调，实现具有良好校准度的相关性打分与困难样本的区分能力。<br>
+          • 在 LOCOMO、LongMemEval 等记忆检索基准上展现出 SOTA 性能，以极低的推理延迟达到了媲美 GPT-4o-mini 等大体积闭源模型的重排质量。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-07</td>
+        <td style="width: 55%;"><strong>Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+          <img src="https://img.shields.io/badge/Retrieval%20Augmented%20Generation-blue" alt="Retrieval Augmented Generation">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+          <img src="https://img.shields.io/badge/Long%20Context%20Processing-teal" alt="Long Context Processing">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.06185">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出用于无限长视频推理的轻量级框架 Event-Causal RAG (EC-RAG)，将视频流异步分割为语义完整的事件并抽象为状态-事件-状态 (SES) 图记忆，替代了传统的固定长度切片记忆。<br>
+          • 设计双存储记忆系统 (Dual-Store Memory)，结合用于语义匹配的向量数据库和用于因果拓扑检索的图数据库，在流式视频环境中实现了低开销存储与高效的跨时空记忆合并。<br>
+          • 引入双向图检索策略以快速识别最相关的事件因果链，在无需对基础视频大模型进行超长序列微调的情况下，显著提升了模型在长视频因果推理上的准确率，并有效避免了上下文溢出问题。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-06</td>
+        <td style="width: 55%;"><strong>Tree-based Credit Assignment for Multi-Agent Memory System</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+          <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.04811">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 TreeMem，一个用于多智能体记忆系统的基于树的强化学习框架，无需依赖特定任务的标注即可直接从最终下游奖励中推导出特定于智能体的信用分配。<br>
+          • 将每个记忆智能体（构建器、摘要器、检索器）的输出扩展为多个后续分支，利用蒙特卡洛平均法评估中间动作对最终结果的贡献。<br>
+          • 把粗粒度的最终奖励转化为细粒度的优化信号，促使异构记忆智能体实现有效的专业化分工，并在长视距基准测试中持续优于现有的强大基线方法。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents</strong></td>
+        <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+        <img src="https://img.shields.io/badge/Large%20Language%20Model-teal" alt="Large Language Model">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03312">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+        • 提出 MemFlow，一种面向小语言模型（SLM）的免训练记忆编排框架，通过意图驱动的记忆路由取代开放式推理循环，以解决长程智能体面临的记忆失效问题。<br>
+        • 设计了专门的多智能体流水线（包含路由、记忆、回答和验证智能体）与动态上下文打包机制，在严格的 token 预算下确保确定性的证据准备和具备依据的可靠响应。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>Governed Collaborative Memory as Artificial Selection in LLM-Based Multi-Agent Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Large%20Language%20Model-teal" alt="Large Language Model">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.04264">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出将受治理的协作记忆作为基于 LLM 的多智能体系统的人工选择机制，以决定哪些候选记忆能够保留并成为持久的共享制度状态。<br>
+          • 引入分层记忆架构，将智能体本地记忆、共享制度记忆、归档记忆和项目连续性记忆相分离，强调通过来源保真度、选择可追溯性和角色保留能力对记忆进行评估。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-05-05</td>
         <td style="width: 55%;"><strong>Learning to Forget -- Hierarchical Episodic Memory for Lifelong Robot Deployment</strong></td>
         <td style="width: 15%;">
@@ -640,6 +761,47 @@ To systematically organize the diverse research and practical resources in the f
       </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-05-04</td>
+        <td style="width: 55%;"><strong>A Semantic Autonomy Framework for VLM-Integrated Indoor Mobile Robots: Hybrid Deterministic Reasoning and Cross-Robot Adaptive Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+          <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.02525v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出用于集成VLM的室内机器人的六层语义自主栈（SAS）框架，其混合推理机制能以确定性方式解析常规指令，从而绕过大模型的推理延迟。<br>
+          • 引入五大类语义记忆框架，将学习到的操作员偏好编译为共享摘要，在无需重新训练模型的情况下实现跨会话和跨机器人的知识迁移。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-04</td>
+        <td style="width: 55%;"><strong>The Dynamic Gist-Based Memory Model (DGMM): A Memory-Centric Architecture for Artificial Intelligence</strong></td>
+        <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.02106">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+        • 提出了动态主旨记忆模型（DGMM），这是一种以记忆为中心的架构框架，将经验表示为显式的、持久的、基于图结构的片段-语义记忆。<br>
+        • 将记忆操作形式化定义为摄入、巩固、回忆和分析四个独立机制，实现了记忆存储与下游语义解释的解耦。<br>
+        • 定义了片段持久性和条件化惊讶局部性等架构不变量，使得系统无需重新训练即可基于稳定的记忆结构支持随时间演变的解释。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-04</td>
         <td style="width: 55%;"><strong>MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
@@ -696,6 +858,27 @@ To systematically organize the diverse research and practical resources in the f
         <td colspan="3">
           • 提出面向长程规划的非均衡多智能体协作框架，将系统分为 planner、actor 和 memory manager 三角色，发现规划对任务性能贡献最大。<br>
           • 提出仅优化 planner 的强化学习方法，利用轨迹级奖励在网页导航、系统控制和工具使用等基准上验证高效性。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-02</td>
+        <td style="width: 55%;"><strong>MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+          <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.01386">
+          <img src="https://img.shields.io/badge/arXiv-Paper-black?labelColor=red" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 MemORAI 记忆组织与检索框架，利用双层压缩的选择性记忆过滤机制保留与用户人设相关的核心内容，同时维持全局对话上下文。<br>
+          • 构建富含溯源信息的多关系知识图谱，实现对话轮次级别的事实追踪，从而支持细粒度且透明的记忆审查。<br>
+          • 引入动态加权 PageRank 进行查询自适应的子图检索，通过应用基于查询条件的边权重，显著提升上下文敏感的检索精度与个性化回复生成能力。
         </td>
       </tr>
       <tr>
@@ -857,6 +1040,27 @@ To systematically organize the diverse research and practical resources in the f
           • 提出 Memanto 系统，采用 13 类 typed semantic memory schema，在 LongMemEval 和 LoCoMo 上分别达到 89.8% 和 87.1%，且无需知识图谱。<br>
           • 引入 Moorcheh Information-Theoretic Search，实现无索引、确定性检索，延迟低于 90ms，写入延迟为零。<br>
           • 通过内置冲突解决和时间版本控制机制应对 constraint drift，支持 supersede 机制保留历史状态。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-19</td>
+        <td style="width: 55%;"><strong>Memory Intelligence Agent</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Hybrid%20Memory-darkcyan" alt="Hybrid Memory">
+          <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+          <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+          <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.04503">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 MIA（Memory Intelligence Agent）记忆智能体框架，采用 Manager-Planner-Executor 架构，通过将历史搜索轨迹压缩为结构化的非参数化记忆来解决存储与检索瓶颈。<br>
+          • 引入两阶段交替强化学习范式以实现高层规划与底层执行的协同对齐，并设计了持续的测试时学习机制，支持在推理过程中动态更新参数化记忆。<br>
+          • 结合反思机制与无监督评估框架，在多项深度研究任务中实现了SOTA性能，并展现出在不同基准测试中强大的自我进化能力。
         </td>
       </tr>
       <tr>
@@ -1037,6 +1241,27 @@ To systematically organize the diverse research and practical resources in the f
         <td colspan="3">
           • 提出 FoT 框架，让多个智能体独立推理后上传轨迹，由中心服务器进行语义级聚合与提炼。<br>
           • 形成跨任务、跨领域共享洞见库，无需梯度优化或监督信号即可提升下游准确率并降低推理开销。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-13</td>
+        <td style="width: 55%;"><strong>The Past Is Not Past: Memory-Enhanced Dynamic Reward Shaping</strong></td>
+        <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+        <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+        <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.11297">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+        • 提出了一种名为 MEDS 的记忆增强动态奖励塑造框架，将历史行为信号显式纳入奖励设计，以缓解大语言模型强化学习过程中的错误坍缩问题。<br>
+        • 复用模型的逐层逻辑值（logits）作为推理轨迹的轻量级表示来构建错误记忆，并应用 HDBSCAN 聚类对频繁出现的失败模式进行动态惩罚。<br>
+        • 在多个数学推理基准和基础模型上的实验表明，该方法能够一致且有效地提升模型的推理性能以及探索的多样性。
         </td>
       </tr>
 <tr>
@@ -1967,6 +2192,25 @@ To systematically organize the diverse research and practical resources in the f
               • 引入了“检索或升级”决策循环以及持续回写机制，实现了高效的语义答案复用和记忆增长。<br>
               • 通过在 MMLU-Pro 数据集上的实验证明，该框架在显著降低推理成本和延迟的同时，达到了与 Oracle 模型相当甚至更高的准确率。
           </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-19</td>
+        <td style="width: 55%;"><strong>MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2603.18718">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 MEMMA，一个即插即用的多智能体框架，通过前向和后向路径共同协调记忆循环，以解决记忆操作中的策略盲区和延迟反馈问题。<br>
+          • 引入 Meta-Thinker 在记忆构建与迭代检索时提供显式策略推理，并设计了一种原位自进化记忆机制，将下游探针问答的失败直接转化为对记忆库的结构化修复操作。
+        </td>
       </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-03-11</td>
@@ -5599,6 +5843,27 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-07</td>
+        <td style="width: 55%;"><strong>STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+          <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+          <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.06527">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出长上下文基准测试 STALE，包含 400 个经过专家验证的隐式冲突场景，用于评估 LLM 智能体在缺乏明确否定的情况下，识别早期记忆何时被新观察结果导致失效的能力。<br>
+          • 设计了包含状态解析、前提抵抗和隐式策略适应的三维探测框架，系统性评估表明当前模型在将更新后的状态应用于下游行为方面存在严重不足。<br>
+          • 提出一种原型框架 CUPMEM，通过明确的写入时状态裁决和拓扑触发的信念传播，显著提升了记忆更新的鲁棒性。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-05-03</td>
         <td style="width: 55%;"><strong>MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing</strong></td>
         <td style="width: 15%;">
@@ -6618,6 +6883,68 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-06</td>
+        <td style="width: 55%;"><strong>Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+          <img src="https://img.shields.io/badge/Large%20Language%20Model-teal" alt="Large Language Model">
+          <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+          <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+          <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.05097">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 Memini，一种面向大语言模型的有向关联记忆系统，通过由文档流直接驱动的多时间尺度记忆动力学来实现知识的持续更新。<br>
+          • 基于 Benna-Fusi 模型在图边缘实现快慢耦合变量，无需显式规则即可自然涌现出情节敏感性、渐进巩固和选择性遗忘等记忆机制。<br>
+          • 利用扩散激活在经验塑造的动态边权重上进行检索，使记忆基座能够自主演化并不断适应新传入的证据流。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-06</td>
+        <td style="width: 55%;"><strong>Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+          <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.04897">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 True Memory 智能体记忆架构，包含六层多阶段检索流水线，放弃在摄入时的提取式存储模式，转而利用单个 SQLite 文件直接对原样保存的对话事件进行检索。<br>
+          • 引入包含新颖度、显著性和预测误差的三信号门控机制，在使用普通商用 CPU 的情况下，在 LoCoMo、LongMemEval 和 BEAM-1M 记忆基准测试中展现出卓越的性能。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>MEMTIER: Tiered Memory Architecture and Retrieval Bottleneck Analysis for Long-Running Autonomous AI Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+          <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03675">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="arXiv Paper">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 MEMTIER，一种面向长期运行的自主智能体的三层记忆架构，解决了现有平面文件系统中存在的上下文崩溃、压缩不连续、结构盲区和缺乏归因循环等问题。<br>
+          • 包含结构化情景 JSONL 存储、五信号加权检索引擎、异步整合守护进程，以及带有基于 PPO 策略框架的注意力归因认知权重更新循环。<br>
+          • 在 LongMemEval-S 基准测试中取得显著性能提升，证明了高精度、结构隔离的记忆（情景与语义）是长视野任务成功的核心，同时指出传统的线性组合检索是当前的性能瓶颈。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-05-05</td>
         <td style="width: 55%;"><strong>What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis</strong></td>
         <td style="width: 15%;">
@@ -7499,6 +7826,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | MHN AI Agent Memory | 2026-03-21 | ![GitHub Repo stars](https://img.shields.io/github/stars/shahzebqazi/mhn-ai-agent-memory?style=social) | https://github.com/shahzebqazi/mhn-ai-agent-memory<br>No official website |
 | LycheeMem | 2026-03-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/LycheeMem/LycheeMem?style=social) | https://github.com/LycheeMem/LycheeMem<br>No official website |
 | MemClaw | 2026-03-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/Felo-Inc/memclaw?style=social) | https://github.com/Felo-Inc/memclaw<br>https://memclaw.me |
+| MemPalace | 2026-04-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/MemPalace/mempalace?style=social) | https://github.com/MemPalace/mempalace<br>http://mempalaceofficial.com/ |
 | SwarmVault | 2026-04-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/swarmclawai/swarmvault?style=social) | https://github.com/swarmclawai/swarmvault<br>https://swarmvault.ai |
 | PackRat | 2026-04-09 | ![GitHub Repo stars](https://img.shields.io/github/stars/kevdogg102396-afk/packrat?style=social) | https://github.com/kevdogg102396-afk/packrat<br>https://www.npmjs.com/package/packrat-compress |
 | SkillClaw | 2026-04-10 | ![GitHub Repo stars](https://img.shields.io/github/stars/AMAP-ML/SkillClaw?style=social) | https://github.com/AMAP-ML/SkillClaw<br>https://arxiv.org/abs/2604.08377 |
