@@ -11,8 +11,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-398-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
-[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-103-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
+[![Papers](https://img.shields.io/badge/Papers-399-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
 ## 👋 Introduction
@@ -2213,6 +2213,33 @@ Papers below are ordered by **publication date**:
               • Introduces a retrieve-or-escalate decision loop combined with a continuous write-back mechanism to enable efficient semantic answer reuse and memory growth. <br>
               • Demonstrates through experiments on the MMLU-Pro dataset that the framework significantly reduces inference costs and latency while achieving accuracy comparable to or exceeding the oracle model.
           </td>
+      </tr>
+      <td rowspan="2" style="width: 15%;">2026-03-20</td>
+      <td style="width: 55%;"><strong>PersonaVLM — Long-Term Personalized Multimodal LLMs</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Multimodal%20Personalization-purple" alt="Multimodal Personalization">
+        <img src="https://img.shields.io/badge/Proactive%20Memory-blue" alt="Proactive Memory">
+        <img src="https://img.shields.io/badge/Multi--Type%20Memory-seagreen" alt="Multi-Type Memory">
+        <img src="https://img.shields.io/badge/Personality%20Evolving-orange" alt="Personality Evolving">
+        <img src="https://img.shields.io/badge/Benchmark%20--%20Persona--MME-red" alt="Benchmark Persona-MME">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://github.com/MiG-NJU/PersonaVLM">
+          <img src="https://img.shields.io/badge/GitHub-Repo-%23181717?logo=github" alt="GitHub">
+        </a>
+        <a href="https://huggingface.co/ClareNie/PersonaVLM">
+          <img src="https://img.shields.io/badge/HuggingFace-Model-%23FFD21E?logo=huggingface" alt="Hugging Face">
+        </a>
+        <a href="https://PersonaVLM.github.io">
+          <img src="https://img.shields.io/badge/Website-Project-%23008080?logo=googlechrome" alt="Website">
+        </a>
+      </td>
+      <tr>
+        <td colspan="3">
+          • Proposes PersonaVLM, an innovative personalized multimodal agent framework that transforms a general-purpose MLLM (e.g., Qwen2.5-VL) into a personalized assistant via proactive memory management and self-evolving personality alignment.<br>
+          • Implements a multi-type memory architecture (core, semantic, episodic, procedural) for complex multi-turn reasoning, with proactive remembering that automatically extracts and summarizes multimodal interaction fragments into a persistent personalized database.<br>
+          • Introduces Momentum-based Personality Evolving (PEM) mechanism for consistent response generation, and releases Persona-MME benchmark (2,000+ cases across 14 fine-grained tasks, CVPR 2026) along with full model weights, 80k+ training samples, and evaluation code.
+        </td>
       </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-03-19</td>

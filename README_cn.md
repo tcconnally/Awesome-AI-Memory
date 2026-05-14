@@ -11,8 +11,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-398-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
-[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-103-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
+[![Papers](https://img.shields.io/badge/Papers-399-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
 ## 👋 简介
@@ -2211,6 +2211,33 @@ To systematically organize the diverse research and practical resources in the f
               • 引入了“检索或升级”决策循环以及持续回写机制，实现了高效的语义答案复用和记忆增长。<br>
               • 通过在 MMLU-Pro 数据集上的实验证明，该框架在显著降低推理成本和延迟的同时，达到了与 Oracle 模型相当甚至更高的准确率。
           </td>
+      </tr>
+      <td rowspan="2" style="width: 15%;">2026-03-20</td>
+      <td style="width: 55%;"><strong>PersonaVLM — Long-Term Personalized Multimodal LLMs</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Multimodal%20Personalization-purple" alt="Multimodal Personalization">
+        <img src="https://img.shields.io/badge/Proactive%20Memory-blue" alt="Proactive Memory">
+        <img src="https://img.shields.io/badge/Multi--Type%20Memory-seagreen" alt="Multi-Type Memory">
+        <img src="https://img.shields.io/badge/Personality%20Evolving-orange" alt="Personality Evolving">
+        <img src="https://img.shields.io/badge/Benchmark%20--%20Persona--MME-red" alt="Benchmark Persona-MME">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://github.com/MiG-NJU/PersonaVLM">
+          <img src="https://img.shields.io/badge/GitHub-Repo-%23181717?logo=github" alt="GitHub">
+        </a>
+        <a href="https://huggingface.co/ClareNie/PersonaVLM">
+          <img src="https://img.shields.io/badge/HuggingFace-Model-%23FFD21E?logo=huggingface" alt="Hugging Face">
+        </a>
+        <a href="https://PersonaVLM.github.io">
+          <img src="https://img.shields.io/badge/Website-Project-%23008080?logo=googlechrome" alt="Website">
+        </a>
+      </td>
+      <tr>
+        <td colspan="3">
+          • 提出 PersonaVLM，这是一种创新的个性化多模态智能体框架，通过主动记忆管理与自演进的个性对齐机制，将通用多模态大语言模型（如 Qwen2.5-VL）转化为个性化助手.<br>
+          • 实现了多类型记忆架构（核心记忆、语义记忆、情节记忆、程序记忆），以支持复杂的多轮推理，并具备主动记忆功能，可自动从多模态交互片段中提取并总结信息，构建持久化的个性化数据库.<br>
+          • 引入基于动量的个性演进（PEM）机制以实现一致的响应生成，同时发布 Persona-MME 基准（涵盖 14 个细粒度任务，共 2,000 余个测试用例，CVPR 2026），并开源完整的模型权重、8 万余条训练样本及评估代码.
+        </td>
       </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-03-19</td>
