@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-399-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-400-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -237,6 +237,26 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-19</td>
+        <td style="width: 55%;"><strong>An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Experience--RAG-yellow" alt="Experience-RAG">
+          <img src="https://img.shields.io/badge/Retrieval%20Strategy-orange" alt="Retrieval Strategy">
+          <img src="https://img.shields.io/badge/Skill%20Orchestration-green" alt="Skill Orchestration">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03989">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Identifies three engineering problems in pipeline-based retrieval: non-reusable strategy logic, non-observable routing decisions, and non-evolvable workflow coupling.<br>
+          • Proposes Experience-RAG Skill with six modules (interface, scene analyzer, experience memory, strategy router, retriever pool, result packer) to encapsulate retrieval strategy selection as a pluggable agent skill.<br>
+          • Shows rule-based routing outperforms learned routing (0.8924 vs 0.8778/0.8627) under limited experience memory; experience memory records (scene_features, score_vector, best_margin) enable future upgrade to learning-based routing.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-04-17</td>
         <td style="width: 55%;"><strong>Human Cognition in Machines: A Unified Perspective of World Models</strong></td>
