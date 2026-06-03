@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-402-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-403-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -5952,6 +5952,27 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-29</td>
+        <td style="width: 55%;"><strong>Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+          <img src="https://img.shields.io/badge/Heterogeneous%20Memory-mediumslateblue" alt="Heterogeneous Memory">
+          <img src="https://img.shields.io/badge/Evolving%20Memory-darkkhaki" alt="Evolving Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.31086">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces RHELM, a benchmark that simulates one-year virtual life trajectories of 10 diverse personas (500K–1M tokens context per user) to evaluate LLMs' realistic, heterogeneous, and evolving long-term memory capabilities.<br>
+          • Proposes the LOOP module (pLan-rOllout-evOlve-Prune) to dynamically generate life trajectories and integrates heterogeneous external sources (emails, diaries, reports) alongside 11,764 dialogue turns, enabling high-fidelity multi-source memory evaluation.<br>
+          • Defines 7 question types and 27 challenge characteristics, including memory-conditioned misleading queries that test conflict-aware responses; shows that SOTA models like Claude Opus 4.5 only score ~38% on average, with cross-source aggregation and real-world contextual reasoning as the dominant bottlenecks.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-05-07</td>
         <td style="width: 55%;"><strong>STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?</strong></td>

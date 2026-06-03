@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-402-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-403-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -5948,6 +5948,27 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-29</td>
+        <td style="width: 55%;"><strong>Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+          <img src="https://img.shields.io/badge/Heterogeneous%20Memory-mediumslateblue" alt="Heterogeneous Memory">
+          <img src="https://img.shields.io/badge/Evolving%20Memory-darkkhaki" alt="Evolving Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.31086">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 RHELM 基准，模拟 10 位画像各异的虚拟用户长达一年的生活轨迹（单用户上下文 500K–1M tokens），用于评测大模型的真实、异质、动态长期记忆能力。<br>
+          • 设计 LOOP 模块（计划-推演-演化-修剪）动态生成生活轨迹，并整合邮件、日记、报告等异质外部源与 11,764 轮对话，实现高保真多源记忆评测。<br>
+          • 定义 7 类问题与 27 项挑战性特征，新增"记忆条件下的误导查询"以考察冲突感知；实验显示 Claude Opus 4.5 等 SOTA 模型平均分仅约 38%，跨源聚合与真实情境推理为当前主要瓶颈。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-05-07</td>
         <td style="width: 55%;"><strong>STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?</strong></td>
