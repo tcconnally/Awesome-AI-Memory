@@ -7566,6 +7566,26 @@ Papers below are ordered by **publication date**:
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2024-12-24</td>
+      <td style="width: 55%;"><strong>Muse: A Multimodal Conversational Recommendation Dataset with Scenario-Grounded User Profiles</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Multimodal-darkorchid" alt="Multimodal">
+        <img src="https://img.shields.io/badge/Conversational%20Recommendation-mediumvioletred" alt="Conversational Recommendation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2412.18416">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduces Muse, the first multimodal conversational recommendation dataset, containing 83,148 utterances across 7,000 conversations in the Clothing domain with scenario-grounded user profiles.<br>
+        • Proposes a three-stage multi-agent generation pipeline (User Profile Generator → Simulated Dialogue Generator → Dialogue Optimizer) powered by multimodal LLMs, where user profiles are derived from real-world scenarios rather than manual design, improving scalability.<br>
+        • Validates quality against four baselines (MMCONV, Redial, Inspired, PEARL) across five dimensions (naturalness, coherence, informativeness, product-context relevance, image-text consistency) and demonstrates utility by fine-tuning three MLLMs for recommendation and response generation.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-01-23</td>
       <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">

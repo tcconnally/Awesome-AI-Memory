@@ -7562,6 +7562,26 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2024-12-24</td>
+      <td style="width: 55%;"><strong>Muse: A Multimodal Conversational Recommendation Dataset with Scenario-Grounded User Profiles</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Multimodal-darkorchid" alt="Multimodal">
+        <img src="https://img.shields.io/badge/Conversational%20Recommendation-mediumvioletred" alt="Conversational Recommendation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2412.18416">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出首个多模态对话推荐数据集 Muse，在服装领域包含 7,000 段对话与 83,148 句话语，提供基于真实场景自动生成的用户画像。<br>
+        • 设计三阶段多智能体数据生成流程（用户画像生成器 → 模拟对话生成器 → 对话优化器），由多模态大模型驱动；用户画像源自真实场景而非人工设定，显著提升可扩展性。<br>
+        • 在自然性、连贯性、信息丰富性、产品上下文相关性、图文一致性五个维度上与 MMCONV、Redial、Inspired、PEARL 四个数据集对比评测；并通过对 3 个 MLLM 微调验证其在推荐与回复生成上的有效性。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-01-23</td>
       <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
