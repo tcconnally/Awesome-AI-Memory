@@ -243,14 +243,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/LLM%20Agents-%23F5A623" alt="LLM Agents">
-          <img src="https://img.shields.io-badge/Environment%20Modeling-%237ED321" alt="Environment Modeling">
-          <img src="https://img.shields.io-badge/Synthesis-%23D0021B" alt="Synthesis">
-          <img src="https://img.shields.io-badge/Evaluation-%239013FE" alt="Evaluation">
+          <img src="https://img.shields.io/badge/LLM%20Agents-F5A623" alt="LLM Agents">
+          <img src="https://img.shields.io/badge/Environment%20Modeling-7ED321" alt="Environment Modeling">
+          <img src="https://img.shields.io/badge/Synthesis-D0021B" alt="Synthesis">
+          <img src="https://img.shields.io/badge/Evaluation-9013FE" alt="Evaluation">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.12191">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -266,13 +266,13 @@ Papers below are ordered by **publication date**:
         <td style="width: 55%;"><strong>Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/LLM%20Security-%2350E3C2" alt="LLM Security">
-          <img src="https://img.shields.io-badge/Attacks-%23F8E71C" alt="Attacks">
-          <img src="https://img.shields.io-badge/Defenses-%23FF6FB5" alt="Defenses">
-          <img src="https://img.shields.io-badge/Evaluation-%239B9B9B" alt="Evaluation">
+          <img src="https://img.shields.io/badge/Attacks-%23F8E71C" alt="Attacks">
+          <img src="https://img.shields.io/badge/Defenses-%23FF6FB5" alt="Defenses">
+          <img src="https://img.shields.io/badge/Evaluation-%239B9B9B" alt="Evaluation">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10749">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -708,14 +708,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-13</td>
         <td style="width: 55%;"><strong>EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Dynamic%20Environments-%234A90E2" alt="Dynamic Environments">
-          <img src="https://img.shields.io-badge/Memory%20Evolution-%23F5A623" alt="Memory Evolution">
-          <img src="https://img.shields.io-badge/Benchmark-%237ED321" alt="Benchmark">
-          <img src="https://img.shields.io-badge/EvoMem-%23D0021B" alt="EvoMem">
+          <img src="https://img.shields.io/badge/Dynamic-Environments-4A90E2" alt="Dynamic Environments">
+          <img src="https://img.shields.io/badge/Memory-Evolution-F5A623" alt="Memory Evolution">
+          <img src="https://img.shields.io/badge/Benchmark-Evaluation-7ED321" alt="Benchmark">
+          <img src="https://img.shields.io/badge/EvoMem-System-D0021B" alt="EvoMem">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.13681">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -730,14 +730,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-12</td>
         <td style="width: 55%;"><strong>MemRefine: LLM-Guided Compression for Long-Term Agent Memory</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Memory%20Compression-%234A90E2" alt="Memory Compression">
-          <img src="https://img.shields.io-badge/Long-Term%20Memory-%23F5A623" alt="Long-Term Memory">
-          <img src="https://img.shields.io-badge/LLM%20Optimization-%237ED321" alt="LLM Optimization">
-          <img src="https://img.shields.io-badge/Budget%20Constraint-%23D0021B" alt="Budget Constraint">
+          <img src="https://img.shields.io/badge/Memory-Compression-4A90E2" alt="Memory Compression">
+          <img src="https://img.shields.io/badge/Long-Term-Memory-F5A623" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/LLM-Optimization-7ED321" alt="LLM Optimization">
+          <img src="https://img.shields.io/badge/Budget-Constraint-D0021B" alt="Budget Constraint">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.13177">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -752,14 +752,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/User%20Feedback-%234A90E2" alt="User Feedback">
-          <img src="https://img.shields.io-badge/Runtime%20Enforcement-%23F5A623" alt="Runtime Enforcement">
-          <img src="https://img.shields.io-badge/Preference%20Alignment-%237ED321" alt="Preference Alignment">
-          <img src="https://img.shields.io-badge/TRACE-%23D0021B" alt="TRACE">
+          <img src="https://img.shields.io/badge/User-Feedback-4A90E2" alt="User Feedback">
+          <img src="https://img.shields.io/badge/Runtime-Enforcement-F5A623" alt="Runtime Enforcement">
+          <img src="https://img.shields.io/badge/Preference-Alignment-7ED321" alt="Preference Alignment">
+          <img src="https://img.shields.io/badge/TRACE-Framework-D0021B" alt="TRACE">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.13174">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -773,15 +773,15 @@ Papers below are ordered by **publication date**:
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents</strong></td>
-        <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Graph%20Memory-%234A90E2" alt="Graph Memory">
-          <img src="https://img.shields.io-badge/Dialogue%20Systems-%23F5A623" alt="Dialogue Systems">
-          <img src="https://img.shields.io-badge/Efficient%20Retrieval-%237ED321" alt="Efficient Retrieval">
-          <img src="https://img.shields.io-badge/Low%20Latency-%23D0021B" alt="Low Latency">
+       <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Graph-Memory-4A90E2" alt="Graph Memory">
+          <img src="https://img.shields.io/badge/Dialogue-Systems-F5A623" alt="Dialogue Systems">
+          <img src="https://img.shields.io/badge/Efficient-Retrieval-7ED321" alt="Efficient Retrieval">
+          <img src="https://img.shields.io/badge/Low-Latency-D0021B" alt="Low Latency">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.13115">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -796,14 +796,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>Multi-Turn Reasoning When Context Arrives in Pieces: Scalable Sharding and Memory-Augmented RL</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Multi-Turn%20Reasoning-%234A90E2" alt="Multi-Turn Reasoning">
-          <img src="https://img.shields.io-badge/Memory%20Sharding-%23F5A623" alt="Sharding">
-          <img src="https://img.shields.io-badge/Reinforcement%20Learning-%237ED321" alt="RL">
-          <img src="https://img.shields.io-badge/Compressed%20Memory-%23D0021B" alt="Compressed Memory">
+          <img src="https://img.shields.io/badge/MultiTurn-Reasoning-4A90E2" alt="Multi-Turn Reasoning">
+          <img src="https://img.shields.io/badge/Memory-Sharding-F5A623" alt="Sharding">
+          <img src="https://img.shields.io/badge/Reinforcement-Learning-7ED321" alt="RL">
+          <img src="https://img.shields.io/badge/Compressed-Memory-D0021B" alt="Compressed Memory">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.12941">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -818,14 +818,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-08</td>
         <td style="width: 55%;"><strong>Arbor: Tree Search as a Cognition Layer for Autonomous Agents</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Tree%20Search-%234A90E2" alt="Tree Search">
-          <img src="https://img.shields.io-badge/Cognition%20Layer-%23F5A623" alt="Cognition Layer">
-          <img src="https://img.shields.io-badge/Multi-Agent-%237ED321" alt="Multi-Agent">
-          <img src="https://img.shields.io-badge/Working%20Memory-%23D0021B" alt="Working Memory">
+          <img src="https://img.shields.io/badge/Tree-Search-4A90E2" alt="Tree Search">
+          <img src="https://img.shields.io/badge/Cognition-Layer-F5A623" alt="Cognition Layer">
+          <img src="https://img.shields.io/badge/Multi-Agent-7ED321" alt="Multi-Agent">
+          <img src="https://img.shields.io/badge/Working-Memory-D0021B" alt="Working Memory">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.12563">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -840,14 +840,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-07</td>
         <td style="width: 55%;"><strong>Substrate Asymmetry in User-Side Memory: A Diagnostic Framework</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/User%20Memory-%234A90E2" alt="User Memory">
-          <img src="https://img.shields.io-badge/Diagnostic%20Framework-%23F5A623" alt="Diagnostic Framework">
-          <img src="https://img.shields.io-badge/Behavior%20Consistency-%237ED321" alt="Behavior Consistency">
-          <img src="https://img.shields.io-badge/Fact%20Modeling-%23D0021B" alt="Fact Modeling">
+          <img src="https://img.shields.io/badge/User-Memory-4A90E2" alt="User Memory">
+          <img src="https://img.shields.io/badge/Diagnostic-Framework-F5A623" alt="Diagnostic Framework">
+          <img src="https://img.shields.io/badge/Behavior-Consistency-7ED321" alt="Behavior Consistency">
+          <img src="https://img.shields.io/badge/Fact-Modeling-D0021B" alt="Fact Modeling">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.11712">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -862,14 +862,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-06</td>
         <td style="width: 55%;"><strong>Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Hierarchical%20Memory-%234A90E2" alt="Hierarchical Memory">
-          <img src="https://img.shields.io-badge/Retrieval%20Optimization-%23F5A623" alt="Retrieval Optimization">
-          <img src="https://img.shields.io-badge/File%20System%20Memory-%237ED321" alt="File System Memory">
-          <img src="https://img.shields.io-badge/Efficiency-%23D0021B" alt="Efficiency">
+          <img src="https://img.shields.io/badge/Hierarchical-Memory-4A90E2" alt="Hierarchical Memory">
+          <img src="https://img.shields.io/badge/Retrieval-Optimization-F5A623" alt="Retrieval Optimization">
+          <img src="https://img.shields.io/badge/File-System-Memory-7ED321" alt="File System Memory">
+          <img src="https://img.shields.io/badge/Efficiency-System-D0021B" alt="Efficiency">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.11680">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -884,14 +884,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-05</td>
         <td style="width: 55%;"><strong>Position: Hippocampal Explicit Memory Is the Cornerstone for AGI</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/AGI%20Theory-%234A90E2" alt="AGI Theory">
-          <img src="https://img.shields.io-badge/Explicit%20Memory-%23F5A623" alt="Explicit Memory">
-          <img src="https://img.shields.io-badge/Neuroscience-%237ED321" alt="Neuroscience">
-          <img src="https://img.shields.io-badge/Cognitive%20Architecture-%23D0021B" alt="Cognitive Architecture">
+          <img src="https://img.shields.io/badge/AGI-Theory-4A90E2" alt="AGI Theory">
+          <img src="https://img.shields.io/badge/Explicit-Memory-F5A623" alt="Explicit Memory">
+          <img src="https://img.shields.io/badge/Neuroscience-Model-7ED321" alt="Neuroscience">
+          <img src="https://img.shields.io/badge/Cognitive-Architecture-D0021B" alt="Cognitive Architecture">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.11245">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -906,14 +906,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Long-Document%20QA-%234A90E2" alt="Long QA">
-          <img src="https://img.shields.io-badge/Hypergraph%20Memory-%23F5A623" alt="Hypergraph Memory">
-          <img src="https://img.shields.io-badge/On-Demand%20Retrieval-%237ED321" alt="On-Demand Retrieval">
-          <img src="https://img.shields.io-badge/Structure-Aware-%23D0021B" alt="Structure-aware">
+          <img src="https://img.shields.io-badge/LongDocument-QA-4A90E2" alt="Long QA">
+          <img src="https://img.shields.io-badge/Hypergraph-Memory-F5A623" alt="Hypergraph Memory">
+          <img src="https://img.shields.io-badge/OnDemand-Retrieval-7ED321" alt="On-Demand Retrieval">
+          <img src="https://img.shields.io-badge/StructureAware-System-D0021B" alt="Structure-aware">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10921">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io-badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -928,14 +928,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-03</td>
         <td style="width: 55%;"><strong>REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Graph%20Memory-%234A90E2" alt="Graph Memory">
-          <img src="https://img.shields.io-badge/Long-Term%20Memory-%23F5A623" alt="Long-Term Memory">
-          <img src="https://img.shields.io-badge/Confidence%20Graph-%237ED321" alt="Confidence Graph">
-          <img src="https://img.shields.io-badge/Non-destructive%20Updates-%23D0021B" alt="Non-destructive Update">
+          <img src="https://img.shields.io-badge/Graph-Memory-4A90E2" alt="Graph Memory">
+          <img src="https://img.shields.io-badge/LongTerm-Memory-F5A623" alt="Long-Term Memory">
+          <img src="https://img.shields.io-badge/Confidence-Graph-7ED321" alt="Confidence Graph">
+          <img src="https://img.shields.io-badge/NonDestructive-Updates-D0021B" alt="Non-destructive Updates">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10694">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io-badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -950,14 +950,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-02</td>
         <td style="width: 55%;"><strong>Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Topic%20Memory-%234A90E2" alt="Topic Memory">
-          <img src="https://img.shields.io-badge/Maintainable%20Docs-%23F5A623" alt="Maintainable Docs">
-          <img src="https://img.shields.io-badge/Continuous%20Update-%237ED321" alt="Continuous Update">
-          <img src="https://img.shields.io-badge/Text%20Memory-%23D0021B" alt="Text Memory">
+          <img src="https://img.shields.io/badge/Topic-Memory-4A90E2" alt="Topic Memory">
+          <img src="https://img.shields.io/badge/Maintainable-Documents-F5A623" alt="Maintainable Docs">
+          <img src="https://img.shields.io/badge/Continuous-Update-7ED321" alt="Continuous Update">
+          <img src="https://img.shields.io-badge/Text-Memory-D0021B" alt="Text Memory">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10677">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io-badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -972,14 +972,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-01</td>
         <td style="width: 55%;"><strong>ActiveMem: Distributed Active Memory for Long-Horizon LLM Reasoning</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Distributed%20Memory-%234A90E2" alt="Distributed Memory">
-          <img src="https://img.shields.io-badge/Active%20Memory-%23F5A623" alt="Active Memory">
-          <img src="https://img.shields.io-badge/Long-Horizon%20Reasoning-%237ED321" alt="Long Horizon Reasoning">
-          <img src="https://img.shields.io-badge/Decoupled%20Architecture-%23D0021B" alt="Decoupled System">
+          <img src="https://img.shields.io/badge/Distributed-Memory-4A90E2" alt="Distributed Memory">
+          <img src="https://img.shields.io/badge/Active-Memory-F5A623" alt="Active Memory">
+          <img src="https://img.shields.io/badge/LongHorizon-Reasoning-7ED321" alt="Long Horizon Reasoning">
+          <img src="https://img.shields.io-badge/Decoupled-Architecture-D0021B" alt="Decoupled Architecture">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10532">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -994,14 +994,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-05-31</td>
         <td style="width: 55%;"><strong>Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Dual-Process%20Memory-%234A90E2" alt="Dual-process Memory">
-          <img src="https://img.shields.io-badge/Cognitive%20Modeling-%23F5A623" alt="Cognitive Modeling">
-          <img src="https://img.shields.io-badge/Self-Evolving%20Agents-%237ED321" alt="Self-evolving Agents">
-          <img src="https://img.shields.io-badge/Cross-Session%20Reasoning-%23D0021B" alt="Cross-session Reasoning">
+          <img src="https://img.shields.io/badge/DualProcess-Memory-4A90E2" alt="Dual-process Memory">
+          <img src="https://img.shields.io/badge/Cognitive-Modeling-F5A623" alt="Cognitive Modeling">
+          <img src="https://img.shields.io/badge/SelfEvolving-Agents-7ED321" alt="Self-evolving Agents">
+          <img src="https://img.shields.io/badge/CrossSession-Reasoning-D0021B" alt="Cross-session Reasoning">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.09483">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -1016,14 +1016,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-05-30</td>
         <td style="width: 55%;"><strong>MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Tool%20Agents-%234A90E2" alt="Tool Agents">
-          <img src="https://img.shields.io-badge/Feedback%20Learning-%23F5A623" alt="Feedback Learning">
-          <img src="https://img.shields.io-badge/Memory-Augmented-%237ED321" alt="Memory Augmented">
-          <img src="https://img.shields.io-badge/Personalization-%23D0021B" alt="Personalization">
+          <img src="https://img.shields.io/badge/Tool-Agents-4A90E2" alt="Tool Agents">
+          <img src="https://img.shields.io/badge/Feedback-Learning-F5A623" alt="Feedback Learning">
+          <img src="https://img.shields.io/badge/Memory-Augmented-7ED321" alt="Memory Augmented">
+          <img src="https://img.shields.io/badge/Personalization-System-D0021B" alt="Personalization">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.07909v2">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -1038,14 +1038,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-05-29</td>
         <td style="width: 55%;"><strong>AdMem: Advanced Memory for Task-solving Agents</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Unified%20Memory-%234A90E2" alt="Unified Memory">
-          <img src="https://img.shields.io-badge/Semantic%20Memory-%23F5A623" alt="Semantic Memory">
-          <img src="https://img.shields.io-badge/Procedural%20Memory-%237ED321" alt="Procedural Memory">
-          <img src="https://img.shields.io-badge/Multi-Agent%20Systems-%23D0021B" alt="Multi-Agent Systems">
+          <img src="https://img.shields.io/badge/Unified-Memory-4A90E2" alt="Unified Memory">
+          <img src="https://img.shields.io/badge/Semantic-Memory-F5A623" alt="Semantic Memory">
+          <img src="https://img.shields.io/badge/Procedural-Memory-7ED321" alt="Procedural Memory">
+          <img src="https://img.shields.io/badge/Multi-Agent-Systems-D0021B" alt="Multi-Agent Systems">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.06787">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -6887,14 +6887,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Recalling Too Well: Sycophancy Evaluation and Mitigation in Memory-Augmented Models</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/LLM%20Memory-%234A90E2" alt="LLM Memory">
-          <img src="https://img.shields.io/badge/Sycophancy-%23F5A623" alt="Sycophancy">
-          <img src="https://img.shields.io-badge/Benchmark-%237ED321" alt="Benchmark">
-          <img src="https://img.shields.io-badge/Mitigation-%23D0021B" alt="Mitigation">
+          <img src="https://img.shields.io/badge/LLM%20Memory-4A90E2" alt="LLM Memory">
+          <img src="https://img.shields.io/badge/Sycophancy-F5A623" alt="Sycophancy">
+          <img src="https://img.shields.io/badge/Benchmark-7ED321" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Mitigation-D0021B" alt="Mitigation">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10949">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -6909,14 +6909,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>H2HMem: A Multimodal Memory Benchmark for Agents in Human-Human Interactions</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Multimodal%20Memory-%234A90E2" alt="Multimodal Memory">
-          <img src="https://img.shields.io-badge/Human%20Interaction-%23F5A623" alt="Human Interaction">
-          <img src="https://img.shields.io-badge/Benchmark-%237ED321" alt="Benchmark">
-          <img src="https://img.shields.io-badge/Dialogue%20Reasoning-%23D0021B" alt="Dialogue Reasoning">
+          <img src="https://img.shields.io/badge/Multimodal%20Memory-Evaluation-4A90E2" alt="Multimodal Memory">
+          <img src="https://img.shields.io/badge/Human-Interaction-F5A623" alt="Human Interaction">
+          <img src="https://img.shields.io/badge/Benchmark-Evaluation-7ED321" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Dialogue-Reasoning-D0021B" alt="Dialogue Reasoning">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.09461">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -8274,14 +8274,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-12</td>
         <td style="width: 55%;"><strong>Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Agent%20Memory-%234A90E2" alt="Agent Memory">
-          <img src="https://img.shields.io-badge/Cognitive%20Model-%23F5A623" alt="Cognitive Model">
-          <img src="https://img.shields.io-badge/Memory%20Policy-%237ED321" alt="Memory Policy">
-          <img src="https://img.shields.io-badge/Explainability-%23D0021B" alt="Explainability">
+          <img src="https://img.shields.io/badge/Agent-Memory-4A90E2" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Cognitive-Model-F5A623" alt="Cognitive Model">
+          <img src="https://img.shields.io/badge/Memory-Policy-7ED321" alt="Memory Policy">
+          <img src="https://img.shields.io/badge/Explainability-Concept-D0021B" alt="Explainability">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.12945v1">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -8296,14 +8296,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>Rosetta Memory: Adaptive Memory for Cross-LLM Agents</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Cross--LLM-%234A90E2" alt="Cross-LLM">
-          <img src="https://img.shields.io-badge/Memory%20System-%23F5A623" alt="Memory System">
-          <img src="https://img.shields.io-badge/Adaptation-%237ED321" alt="Adaptation">
-          <img src="https://img.shields.io-badge/Robustness-%23D0021B" alt="Robustness">
+          <img src="https://img.shields.io/badge/Cross-LLM-4A90E2" alt="Cross-LLM">
+          <img src="https://img.shields.io/badge/Memory-System-F5A623" alt="Memory System">
+          <img src="https://img.shields.io/badge/Adaptation-7ED321" alt="Adaptation">
+          <img src="https://img.shields.io/badge/Robustness-D0021B" alt="Robustness">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.07711">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -8318,14 +8318,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Agent%20Memory-%234A90E2" alt="Agent Memory">
-          <img src="https://img.shields.io-badge/Long--Horizon-%23F5A623" alt="Long Horizon">
-          <img src="https://img.shields.io-badge/System%20Analysis-%237ED321" alt="System Analysis">
-          <img src="https://img.shields.io-badge/Memory%20Cost-%23D0021B" alt="Memory Cost">
+          <img src="https://img.shields.io/badge/Agent-Memory-4A90E2" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Long-Horizon-F5A623" alt="Long Horizon">
+          <img src="https://img.shields.io/badge/System-Analysis-7ED321" alt="System Analysis">
+          <img src="https://img.shields.io/badge/Memory-Cost-D0021B" alt="Memory Cost">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/abs/2606.06448">
-            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
