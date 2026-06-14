@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-449-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-473-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-06-14 - 🎉 Updated 24 papers, including 2 on Survey, 4 on Systems & Models, 2 on Datasets & Benchmark, and 16 on Framework & Methods
 + 2026-06-06 - 🎉 Updated 45 papers, including 1 on Survey, 6 on Systems & Models, 12 on Datasets & Benchmark, and 26 on Framework & Methods
 + 2026-05-10 - 🎉 Updated 16 papers, including 3 on systems and models, 1 on benchmarks, and 12 on methods; also added 1 new project under systems and open sources
 + 2026-05-06 - 🎉 Updated 16 papers, including 2 on systems and models, 2 on benchmarks, and 12 on methods
@@ -238,6 +239,50 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
+        <td style="width: 55%;"><strong>Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/LLM%20Agents-%23F5A623" alt="LLM Agents">
+          <img src="https://img.shields.io-badge/Environment%20Modeling-%237ED321" alt="Environment Modeling">
+          <img src="https://img.shields.io-badge/Synthesis-%23D0021B" alt="Synthesis">
+          <img src="https://img.shields.io-badge/Evaluation-%239013FE" alt="Evaluation">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.12191">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This survey systematically frames LLM agent environments across a full lifecycle, including environment modeling, synthesis, evaluation, and application. <br>
+          • It introduces symbolic and neural paradigms for environment synthesis and analyzes environment design through structural properties and capability evolution. <br>
+          • The work highlights co-evolution between agents and environments (memory, workflows, trajectories, and exploration) and points toward future directions such as environment-as-a-service and multi-agent ecosystems.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
+        <td style="width: 55%;"><strong>Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20Security-%2350E3C2" alt="LLM Security">
+          <img src="https://img.shields.io-badge/Attacks-%23F8E71C" alt="Attacks">
+          <img src="https://img.shields.io-badge/Defenses-%23FF6FB5" alt="Defenses">
+          <img src="https://img.shields.io-badge/Evaluation-%239B9B9B" alt="Evaluation">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.10749">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper analyzes security risks of LLM agents from a lifecycle perspective and formalizes key interactions including information flow, delegated authority, and persistent state. <br>
+          • Based on a review of 247 studies, it organizes attack surfaces, defense mechanisms, and evaluation methods, showing that current defenses remain weak and incomplete. <br>
+          • It emphasizes the need for clearly defined trust boundaries, principled permission control, and realistic long-horizon security evaluation frameworks aligned with real-world environments.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</strong></td>
@@ -649,8 +694,6 @@ Papers below are ordered by **publication date**:
 
 
 
-
-
 <details>
   <summary><strong>Framework & Methods</strong></summary>
 
@@ -661,6 +704,358 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-13</td>
+        <td style="width: 55%;"><strong>EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Dynamic%20Environments-%234A90E2" alt="Dynamic Environments">
+          <img src="https://img.shields.io-badge/Memory%20Evolution-%23F5A623" alt="Memory Evolution">
+          <img src="https://img.shields.io-badge/Benchmark-%237ED321" alt="Benchmark">
+          <img src="https://img.shields.io-badge/EvoMem-%23D0021B" alt="EvoMem">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.13681">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces EvoArena, a benchmark suite for simulating dynamic environment changes to evaluate memory robustness in LLM agents.<br>
+          • Proposes EvoMem, a patch-based memory paradigm that explicitly tracks structured memory evolution over time.<br>
+          • Results show that current agents perform poorly under evolving environments, while EvoMem significantly improves performance.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-12</td>
+        <td style="width: 55%;"><strong>MemRefine: LLM-Guided Compression for Long-Term Agent Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Memory%20Compression-%234A90E2" alt="Memory Compression">
+          <img src="https://img.shields.io-badge/Long-Term%20Memory-%23F5A623" alt="Long-Term Memory">
+          <img src="https://img.shields.io-badge/LLM%20Optimization-%237ED321" alt="LLM Optimization">
+          <img src="https://img.shields.io-badge/Budget%20Constraint-%23D0021B" alt="Budget Constraint">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.13177">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MemRefine, an LLM-driven memory compression framework under fixed storage budgets.<br>
+          • Uses semantic and factual consistency evaluation to iteratively delete, merge, or retain memory entries.<br>
+          • Maintains or exceeds baseline performance under strict memory constraints.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
+        <td style="width: 55%;"><strong>Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/User%20Feedback-%234A90E2" alt="User Feedback">
+          <img src="https://img.shields.io-badge/Runtime%20Enforcement-%23F5A623" alt="Runtime Enforcement">
+          <img src="https://img.shields.io-badge/Preference%20Alignment-%237ED321" alt="Preference Alignment">
+          <img src="https://img.shields.io-badge/TRACE-%23D0021B" alt="TRACE">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.13174">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces TRACE, which compiles user corrections into runtime constraints for LLM agents.<br>
+          • Converts feedback into executable rules for continuous behavior correction.<br>
+          • Significantly reduces preference violations in interactive tasks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
+        <td style="width: 55%;"><strong>G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Graph%20Memory-%234A90E2" alt="Graph Memory">
+          <img src="https://img.shields.io-badge/Dialogue%20Systems-%23F5A623" alt="Dialogue Systems">
+          <img src="https://img.shields.io-badge/Efficient%20Retrieval-%237ED321" alt="Efficient Retrieval">
+          <img src="https://img.shields.io-badge/Low%20Latency-%23D0021B" alt="Low Latency">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.13115">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes G-Long, a graph-based memory system using structured triples for long-term dialogue management.<br>
+          • Employs lightweight LMs for structured extraction and attention-aware importance scoring.<br>
+          • Achieves efficient and high-quality memory retrieval with reduced computational cost.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
+        <td style="width: 55%;"><strong>Multi-Turn Reasoning When Context Arrives in Pieces: Scalable Sharding and Memory-Augmented RL</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Multi-Turn%20Reasoning-%234A90E2" alt="Multi-Turn Reasoning">
+          <img src="https://img.shields.io-badge/Memory%20Sharding-%23F5A623" alt="Sharding">
+          <img src="https://img.shields.io-badge/Reinforcement%20Learning-%237ED321" alt="RL">
+          <img src="https://img.shields.io-badge/Compressed%20Memory-%23D0021B" alt="Compressed Memory">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.12941">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Addresses multi-turn reasoning failures caused by fragmented context input in dialogue systems.<br>
+          • Introduces a compact rolling memory mechanism replacing full history tracking.<br>
+          • Improves zero-shot reasoning and generalization across long-context tasks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-08</td>
+        <td style="width: 55%;"><strong>Arbor: Tree Search as a Cognition Layer for Autonomous Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Tree%20Search-%234A90E2" alt="Tree Search">
+          <img src="https://img.shields.io-badge/Cognition%20Layer-%23F5A623" alt="Cognition Layer">
+          <img src="https://img.shields.io-badge/Multi-Agent-%237ED321" alt="Multi-Agent">
+          <img src="https://img.shields.io-badge/Working%20Memory-%23D0021B" alt="Working Memory">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.12563">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces Arbor, a multi-agent framework using tree search as a shared cognitive layer.<br>
+          • Maintains an explicit evolving search tree as shared working memory for coordination.<br>
+          • Improves scalability, reproducibility, and reasoning efficiency in large state spaces.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-07</td>
+        <td style="width: 55%;"><strong>Substrate Asymmetry in User-Side Memory: A Diagnostic Framework</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/User%20Memory-%234A90E2" alt="User Memory">
+          <img src="https://img.shields.io-badge/Diagnostic%20Framework-%23F5A623" alt="Diagnostic Framework">
+          <img src="https://img.shields.io-badge/Behavior%20Consistency-%237ED321" alt="Behavior Consistency">
+          <img src="https://img.shields.io-badge/Fact%20Modeling-%23D0021B" alt="Fact Modeling">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.11712">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Decomposes user-side memory into orthogonal axes rather than treating personalization as a single capability.<br>
+          • Identifies three key dimensions: behavioral consistency, factual presence, and factual absence.<br>
+          • Reveals asymmetries across models and highlights alignment and routing trade-offs.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-06</td>
+        <td style="width: 55%;"><strong>Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Hierarchical%20Memory-%234A90E2" alt="Hierarchical Memory">
+          <img src="https://img.shields.io-badge/Retrieval%20Optimization-%23F5A623" alt="Retrieval Optimization">
+          <img src="https://img.shields.io-badge/File%20System%20Memory-%237ED321" alt="File System Memory">
+          <img src="https://img.shields.io-badge/Efficiency-%23D0021B" alt="Efficiency">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.11680">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes HORMA, a hierarchical memory organization framework for efficient navigation and retrieval.<br>
+          • Structures experience into layered representations to reduce loss and latency in unstructured retrieval.<br>
+          • Improves performance and efficiency in long-horizon dialogue tasks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-05</td>
+        <td style="width: 55%;"><strong>Position: Hippocampal Explicit Memory Is the Cornerstone for AGI</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/AGI%20Theory-%234A90E2" alt="AGI Theory">
+          <img src="https://img.shields.io-badge/Explicit%20Memory-%23F5A623" alt="Explicit Memory">
+          <img src="https://img.shields.io-badge/Neuroscience-%237ED321" alt="Neuroscience">
+          <img src="https://img.shields.io-badge/Cognitive%20Architecture-%23D0021B" alt="Cognitive Architecture">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.11245">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Argues that explicit hippocampal-like memory is fundamental for achieving AGI-level capabilities.<br>
+          • Claims implicit statistical learning alone is insufficient for planning, reasoning, and meta-cognition.<br>
+          • Outlines computational requirements for implementing explicit memory systems in AI.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-04</td>
+        <td style="width: 55%;"><strong>Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Long-Document%20QA-%234A90E2" alt="Long QA">
+          <img src="https://img.shields.io-badge/Hypergraph%20Memory-%23F5A623" alt="Hypergraph Memory">
+          <img src="https://img.shields.io-badge/On-Demand%20Retrieval-%237ED321" alt="On-Demand Retrieval">
+          <img src="https://img.shields.io-badge/Structure-Aware-%23D0021B" alt="Structure-aware">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.10921">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces DocTrace, a multi-agent RAG framework with structure-aware hypergraph memory.<br>
+          • Builds document structure trees and on-demand shared memory graphs for reasoning reuse.<br>
+          • Achieves strong improvements over structured RAG baselines on long-document QA tasks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-03</td>
+        <td style="width: 55%;"><strong>REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Graph%20Memory-%234A90E2" alt="Graph Memory">
+          <img src="https://img.shields.io-badge/Long-Term%20Memory-%23F5A623" alt="Long-Term Memory">
+          <img src="https://img.shields.io-badge/Confidence%20Graph-%237ED321" alt="Confidence Graph">
+          <img src="https://img.shields.io-badge/Non-destructive%20Updates-%23D0021B" alt="Non-destructive Update">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.10694">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes REAL, a time- and confidence-aware directed graph for long-term memory management.<br>
+          • Supports non-destructive updates with multi-version factual memory retention.<br>
+          • Achieves +22.72% average improvement in long-term memory tasks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-02</td>
+        <td style="width: 55%;"><strong>Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Topic%20Memory-%234A90E2" alt="Topic Memory">
+          <img src="https://img.shields.io-badge/Maintainable%20Docs-%23F5A623" alt="Maintainable Docs">
+          <img src="https://img.shields.io-badge/Continuous%20Update-%237ED321" alt="Continuous Update">
+          <img src="https://img.shields.io-badge/Text%20Memory-%23D0021B" alt="Text Memory">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.10677">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes Infini Memory, which organizes agent memory into maintainable topic-centric documents.<br>
+          • Uses buffer-and-consolidation updates to continuously refine semantic memory over time.<br>
+          • Enables iterative retrieval via tool-based memory reading rather than single-pass lookup.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-01</td>
+        <td style="width: 55%;"><strong>ActiveMem: Distributed Active Memory for Long-Horizon LLM Reasoning</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Distributed%20Memory-%234A90E2" alt="Distributed Memory">
+          <img src="https://img.shields.io-badge/Active%20Memory-%23F5A623" alt="Active Memory">
+          <img src="https://img.shields.io-badge/Long-Horizon%20Reasoning-%237ED321" alt="Long Horizon Reasoning">
+          <img src="https://img.shields.io-badge/Decoupled%20Architecture-%23D0021B" alt="Decoupled System">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.10532">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces ActiveMem, decoupling planning and memory systems for long-horizon reasoning tasks.<br>
+          • Uses lightweight planners with distributed memory modules running in parallel.<br>
+          • Improves efficiency while achieving state-of-the-art performance on complex benchmarks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-31</td>
+        <td style="width: 55%;"><strong>Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Dual-Process%20Memory-%234A90E2" alt="Dual-process Memory">
+          <img src="https://img.shields.io-badge/Cognitive%20Modeling-%23F5A623" alt="Cognitive Modeling">
+          <img src="https://img.shields.io-badge/Self-Evolving%20Agents-%237ED321" alt="Self-evolving Agents">
+          <img src="https://img.shields.io-badge/Cross-Session%20Reasoning-%23D0021B" alt="Cross-session Reasoning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.09483">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes DCPM, a dual-process memory system separating explicit and implicit cognitive memory layers.<br>
+          • Uses day-time writing and night-time consolidation mechanisms for long-term evolution.<br>
+          • Demonstrates strong performance in cross-session reasoning and personalization tasks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-30</td>
+        <td style="width: 55%;"><strong>MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Tool%20Agents-%234A90E2" alt="Tool Agents">
+          <img src="https://img.shields.io-badge/Feedback%20Learning-%23F5A623" alt="Feedback Learning">
+          <img src="https://img.shields.io-badge/Memory-Augmented-%237ED321" alt="Memory Augmented">
+          <img src="https://img.shields.io-badge/Personalization-%23D0021B" alt="Personalization">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.07909v2">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MemToolAgent, which enhances tool-using agents via structured memory extraction and retrieval.<br>
+          • Converts past interactions into reusable memory entries for continuous improvement.<br>
+          • Improves personalization and task accuracy through memory-augmented reasoning.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-29</td>
+        <td style="width: 55%;"><strong>AdMem: Advanced Memory for Task-solving Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Unified%20Memory-%234A90E2" alt="Unified Memory">
+          <img src="https://img.shields.io-badge/Semantic%20Memory-%23F5A623" alt="Semantic Memory">
+          <img src="https://img.shields.io-badge/Procedural%20Memory-%237ED321" alt="Procedural Memory">
+          <img src="https://img.shields.io-badge/Multi-Agent%20Systems-%23D0021B" alt="Multi-Agent Systems">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.06787">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes AdMem, a unified memory framework integrating semantic, episodic, and procedural memory.<br>
+          • Uses multi-agent coordination for memory generation, reward annotation, and adaptive retrieval.<br>
+          • Improves robustness and success rate in long-horizon task-solving scenarios.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>AdaMEM: Test-Time Adaptive Memory for Language Agents</strong></td>
@@ -6478,11 +6873,6 @@ Papers below are ordered by **publication date**:
 
 
 
-
-
-
-
-
 <details>
   <summary><strong>Datasets & Benchmark</strong></summary>
 
@@ -6493,6 +6883,50 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
+        <td style="width: 55%;"><strong>Recalling Too Well: Sycophancy Evaluation and Mitigation in Memory-Augmented Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20Memory-%234A90E2" alt="LLM Memory">
+          <img src="https://img.shields.io/badge/Sycophancy-%23F5A623" alt="Sycophancy">
+          <img src="https://img.shields.io-badge/Benchmark-%237ED321" alt="Benchmark">
+          <img src="https://img.shields.io-badge/Mitigation-%23D0021B" alt="Mitigation">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.10949">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper shows that persistent memory systems in LLMs amplify sycophancy, causing models to prioritize user-aligned beliefs over factual correctness. <br>
+          • It introduces the MIST benchmark and evaluates multiple state-of-the-art memory systems and model families, systematically measuring this effect. <br>
+          • The authors propose lightweight mitigation strategies that significantly reduce sycophancy while maintaining or improving factual recall performance.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
+        <td style="width: 55%;"><strong>H2HMem: A Multimodal Memory Benchmark for Agents in Human-Human Interactions</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Multimodal%20Memory-%234A90E2" alt="Multimodal Memory">
+          <img src="https://img.shields.io-badge/Human%20Interaction-%23F5A623" alt="Human Interaction">
+          <img src="https://img.shields.io-badge/Benchmark-%237ED321" alt="Benchmark">
+          <img src="https://img.shields.io-badge/Dialogue%20Reasoning-%23D0021B" alt="Dialogue Reasoning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.09461">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper introduces H2HMem, a multimodal benchmark designed to evaluate agent memory in complex human-human interaction settings beyond single-user text conversations. <br>
+          • It includes dyadic and multi-party dialogues and evaluates memory across recall, reasoning, and application dimensions. <br>
+          • Results show that current systems struggle with cross-modal, cross-participant, and long-horizon memory construction and utilization, highlighting key limitations of existing agents.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents</strong></td>
@@ -7804,8 +8238,6 @@ Papers below are ordered by **publication date**:
 
 
 
-
-
 <details>
   <summary><strong>Systems & Models</strong></summary>
 
@@ -7816,6 +8248,94 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-13</td>
+        <td style="width: 55%;"><strong>Maestro: Workload-Aware Cross-Cluster Scheduling for LLM-Based Multi-Agent Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20MAS-%234A90E2" alt="LLM MAS">
+          <img src="https://img.shields.io/badge/Scheduling-%23F5A623" alt="Scheduling">
+          <img src="https://img.shields.io/badge/Cloud%20Systems-%237ED321" alt="Cloud Systems">
+          <img src="https://img.shields.io/badge/Memory%20Optimization-%23D0021B" alt="Memory Optimization">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.12950v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper proposes Maestro, a workload-aware cross-cluster scheduling system designed for LLM-based multi-agent systems in resource-constrained cloud environments. <br>
+          • It predicts token output length and memory usage per stage to drive a hierarchical scheduler supporting dynamic multi-model co-location and elastic memory allocation. <br>
+          • Experiments show that Maestro significantly reduces memory overhead while improving SLO fulfillment and overall system efficiency.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-12</td>
+        <td style="width: 55%;"><strong>Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Agent%20Memory-%234A90E2" alt="Agent Memory">
+          <img src="https://img.shields.io-badge/Cognitive%20Model-%23F5A623" alt="Cognitive Model">
+          <img src="https://img.shields.io-badge/Memory%20Policy-%237ED321" alt="Memory Policy">
+          <img src="https://img.shields.io-badge/Explainability-%23D0021B" alt="Explainability">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.12945v1">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This work introduces a cognitively grounded multi-factor memory value model to guide storage, retention, and forgetting decisions under limited memory budgets for LLM agents. <br>
+          • It integrates seven interpretable factors (e.g., emotional intensity and goal relevance) into a unified framework for encoding and retrieval policies. <br>
+          • Results show improved memory efficiency and retention quality compared to baselines, along with strong interpretability and lightweight deployment.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
+        <td style="width: 55%;"><strong>Rosetta Memory: Adaptive Memory for Cross-LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Cross--LLM-%234A90E2" alt="Cross-LLM">
+          <img src="https://img.shields.io-badge/Memory%20System-%23F5A623" alt="Memory System">
+          <img src="https://img.shields.io-badge/Adaptation-%237ED321" alt="Adaptation">
+          <img src="https://img.shields.io-badge/Robustness-%23D0021B" alt="Robustness">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.07711">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Rosetta Memory transforms stateless LLMs into persistent, cross-model memory systems that remain effective across different model switches and task distributions. <br>
+          • It introduces conditional operators that optimize how memory is stored and presented, enabling compatibility across heterogeneous LLM architectures. <br>
+          • Experiments demonstrate strong robustness across benchmarks, maintaining performance even under unseen model substitution scenarios.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-04</td>
+        <td style="width: 55%;"><strong>Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io-badge/Agent%20Memory-%234A90E2" alt="Agent Memory">
+          <img src="https://img.shields.io-badge/Long--Horizon-%23F5A623" alt="Long Horizon">
+          <img src="https://img.shields.io-badge/System%20Analysis-%237ED321" alt="System Analysis">
+          <img src="https://img.shields.io-badge/Memory%20Cost-%23D0021B" alt="Memory Cost">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/abs/2606.06448">
+            <img src="https://img.shields.io-badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper redefines agent memory as a stateful long-horizon workload rather than a simple retrieval-augmented component. <br>
+          • It introduces a stage-aware analytical framework that decomposes memory system costs across build, retrieval, and generation phases. <br>
+          • Through analysis of multiple systems, it derives system-level insights on scheduling design, latency trade-offs, and scalable deployment.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>TokenMizer: Graph-Structured Session Memory for Long-Horizon LLM Context Management</strong></td>
