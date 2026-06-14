@@ -705,7 +705,7 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-13</td>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Dynamic-Environments-4A90E2" alt="Dynamic Environments">
@@ -727,7 +727,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-12</td>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>MemRefine: LLM-Guided Compression for Long-Term Agent Memory</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Memory-Compression-4A90E2" alt="Memory Compression">
@@ -771,7 +771,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-10</td>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents</strong></td>
        <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Graph-Memory-4A90E2" alt="Graph Memory">
@@ -793,7 +793,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-09</td>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>Multi-Turn Reasoning When Context Arrives in Pieces: Scalable Sharding and Memory-Augmented RL</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/MultiTurn-Reasoning-4A90E2" alt="Multi-Turn Reasoning">
@@ -815,7 +815,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-08</td>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Arbor: Tree Search as a Cognition Layer for Autonomous Agents</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Tree-Search-4A90E2" alt="Tree Search">
@@ -837,7 +837,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-07</td>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Substrate Asymmetry in User-Side Memory: A Diagnostic Framework</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/User-Memory-4A90E2" alt="User Memory">
@@ -859,7 +859,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-06</td>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Hierarchical-Memory-4A90E2" alt="Hierarchical Memory">
@@ -903,7 +903,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-04</td>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/LongDocument-QA-4A90E2" alt="Long QA">
@@ -925,7 +925,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-03</td>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Graph-Memory-4A90E2" alt="Graph Memory">
@@ -947,7 +947,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-02</td>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Topic-Memory-4A90E2" alt="Topic Memory">
@@ -969,7 +969,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-01</td>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>ActiveMem: Distributed Active Memory for Long-Horizon LLM Reasoning</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Distributed-Memory-4A90E2" alt="Distributed Memory">
@@ -991,7 +991,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-05-31</td>
+        <td rowspan="2" style="width: 15%;">2026-06-08</td>
         <td style="width: 55%;"><strong>Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/DualProcess-Memory-4A90E2" alt="Dual-process Memory">
@@ -1013,7 +1013,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-05-30</td>
+        <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Tool-Agents-4A90E2" alt="Tool Agents">
@@ -1035,7 +1035,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-05-29</td>
+        <td rowspan="2" style="width: 15%;">2026-06-05</td>
         <td style="width: 55%;"><strong>AdMem: Advanced Memory for Task-solving Agents</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Unified-Memory-4A90E2" alt="Unified Memory">
@@ -6884,7 +6884,7 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-10</td>
+        <td rowspan="2" style="width: 15%;">2026-06-09</td>
         <td style="width: 55%;"><strong>Recalling Too Well: Sycophancy Evaluation and Mitigation in Memory-Augmented Models</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/LLM%20Memory-4A90E2" alt="LLM Memory">
@@ -6906,7 +6906,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-09</td>
+        <td rowspan="2" style="width: 15%;">2026-06-08</td>
         <td style="width: 55%;"><strong>H2HMem: A Multimodal Memory Benchmark for Agents in Human-Human Interactions</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Multimodal%20Memory-Evaluation-4A90E2" alt="Multimodal Memory">
@@ -8249,7 +8249,7 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-13</td>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>Maestro: Workload-Aware Cross-Cluster Scheduling for LLM-Based Multi-Agent Systems</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/LLM%20MAS-%234A90E2" alt="LLM MAS">
@@ -8271,7 +8271,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-12</td>
+        <td rowspan="2" style="width: 15%;">2026-06-11</td>
         <td style="width: 55%;"><strong>Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Agent-Memory-4A90E2" alt="Agent Memory">
@@ -8293,7 +8293,7 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-11</td>
+        <td rowspan="2" style="width: 15%;">2026-06-05</td>
         <td style="width: 55%;"><strong>Rosetta Memory: Adaptive Memory for Cross-LLM Agents</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Cross-LLM-4A90E2" alt="Cross-LLM">
