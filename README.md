@@ -906,14 +906,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-04</td>
         <td style="width: 55%;"><strong>Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/LongDocument-QA-4A90E2" alt="Long QA">
-          <img src="https://img.shields.io-badge/Hypergraph-Memory-F5A623" alt="Hypergraph Memory">
-          <img src="https://img.shields.io-badge/OnDemand-Retrieval-7ED321" alt="On-Demand Retrieval">
-          <img src="https://img.shields.io-badge/StructureAware-System-D0021B" alt="Structure-aware">
+          <img src="https://img.shields.io/badge/LongDocument-QA-4A90E2" alt="Long QA">
+          <img src="https://img.shields.io/badge/Hypergraph-Memory-F5A623" alt="Hypergraph Memory">
+          <img src="https://img.shields.io/badge/OnDemand-Retrieval-7ED321" alt="On-Demand Retrieval">
+          <img src="https://img.shields.io/badge/StructureAware-System-D0021B" alt="Structure-aware">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10921">
-            <img src="https://img.shields.io-badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -928,14 +928,14 @@ Papers below are ordered by **publication date**:
         <td rowspan="2" style="width: 15%;">2026-06-03</td>
         <td style="width: 55%;"><strong>REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io-badge/Graph-Memory-4A90E2" alt="Graph Memory">
-          <img src="https://img.shields.io-badge/LongTerm-Memory-F5A623" alt="Long-Term Memory">
-          <img src="https://img.shields.io-badge/Confidence-Graph-7ED321" alt="Confidence Graph">
-          <img src="https://img.shields.io-badge/NonDestructive-Updates-D0021B" alt="Non-destructive Updates">
+          <img src="https://img.shields.io/badge/Graph-Memory-4A90E2" alt="Graph Memory">
+          <img src="https://img.shields.io/badge/LongTerm-Memory-F5A623" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Confidence-Graph-7ED321" alt="Confidence Graph">
+          <img src="https://img.shields.io/badge/NonDestructive-Updates-D0021B" alt="Non-destructive Updates">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10694">
-            <img src="https://img.shields.io-badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -953,11 +953,11 @@ Papers below are ordered by **publication date**:
           <img src="https://img.shields.io/badge/Topic-Memory-4A90E2" alt="Topic Memory">
           <img src="https://img.shields.io/badge/Maintainable-Documents-F5A623" alt="Maintainable Docs">
           <img src="https://img.shields.io/badge/Continuous-Update-7ED321" alt="Continuous Update">
-          <img src="https://img.shields.io-badge/Text-Memory-D0021B" alt="Text Memory">
+          <img src="https://img.shields.io/badge/Text-Memory-D0021B" alt="Text Memory">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10677">
-            <img src="https://img.shields.io-badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
@@ -975,7 +975,7 @@ Papers below are ordered by **publication date**:
           <img src="https://img.shields.io/badge/Distributed-Memory-4A90E2" alt="Distributed Memory">
           <img src="https://img.shields.io/badge/Active-Memory-F5A623" alt="Active Memory">
           <img src="https://img.shields.io/badge/LongHorizon-Reasoning-7ED321" alt="Long Horizon Reasoning">
-          <img src="https://img.shields.io-badge/Decoupled-Architecture-D0021B" alt="Decoupled Architecture">
+          <img src="https://img.shields.io/badge/Decoupled-Architecture-D0021B" alt="Decoupled Architecture">
         </td>
         <td style="width: 15%;">
           <a href="https://arxiv.org/pdf/2606.10532">
